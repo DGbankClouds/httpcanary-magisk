@@ -1,3 +1,9 @@
+# ⚠️⚠️⚠️ Read this first ⚠️⚠️⚠️
+This module is still working, but most apps are using certificate pinning now, so you may not be able to use HTTPCanary at all.
+
+Instead you should take a look at [https://httptoolkit.com](https://httptoolkit.com) (not an ad)
+
+
 # HttpCanary System CA Mounter
 
 In recent versions of Android, [HttpCanary](https://play.google.com/store/apps/details?id=com.guoshi.httpcanary&hl=es) cannot copy the CA certificate to system because `/system` is read-only. 
